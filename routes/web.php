@@ -15,9 +15,9 @@ Route::prefix('components')->group(function () {
         return view('components/footeruser');
     });
 
-    Route::get('/HeaderAdmin', function () {
-        return view('components/headeradmin');
-    });
+    // Route::get('/HeaderAdmin', function () {
+    //     return view('components/headeradmin');
+    // });
 
     Route::get('/HeaderUser', function () {
         return view('components/headeruser');

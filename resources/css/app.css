@@ -1,4 +1,13 @@
+@import 'flowbite';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import 'flowbite';
+
+.svg-path {
+    fill: currentColor; 
+}
+
+
+.group:hover .svg-path {
+    fill: merah; 
+}
