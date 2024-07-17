@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/test', function () {
+Route::get('/', function () {
     return view('test');
 });
 
@@ -22,14 +22,12 @@ Route::prefix('components')->group(function () {
     Route::get('/HeaderUser', function () {
         return view('components/headeruser');
     });
-
 });
 
 Route::prefix('user')->group(function () {
     Route::get('/', function () {
         return view('user/home');
-    });
-
+    })->name('user.home');
 });
 
 Route::prefix('admin')->group(function () {
@@ -40,7 +38,4 @@ Route::prefix('admin')->group(function () {
     Route::get('/Novel', function () {
         return view('admin/novel');
     });
-
 });
-
-
