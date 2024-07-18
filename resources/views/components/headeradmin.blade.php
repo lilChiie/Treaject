@@ -5,15 +5,15 @@
 
 
 <!-- header start -->
-
-<!-- <button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+<header>
+<button data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
    <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
    </svg>
-</button> -->
+</button>
 
-<aside id="default-sidebar" class="fixed  top-0 left-0 z-40 w-64 h-screen sm:translate-x-0 font-serif" aria-label="Sidebar">
+<aside id="default-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 font-serif" aria-label="Sidebar">
    <div class="h-full px-3 py-4 overflow-y-auto bg-gray-200 dark:bg-gray-800">
     <div class=" flex mb-6">
         <img src="{{ url('images/logo.jpg') }}" class=" w-[70px]  rounded-full " alt="">
@@ -36,7 +36,8 @@
 
     <ul class="space-y-2 font-bold text-[18px] ml-3">
          <li>
-            <a href="#" class="flex items-center p-2 text-gray-900 transition duration-700 hover:text-merah dark:transition dark:duration-700 dark:hover:text-merah dark:text-white group">
+            <a href="/admin/" class="flex items-center p-2 text-gray-900 transition duration-700 hover:text-merah dark:transition dark:duration-700 dark:hover:text-merah dark:text-white group 
+            {{ request()->is('admin') ? 'text-merah dark:text-merah' : 'text-black dark:text-black' }}">
                 <svg class="w-7 svg-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                     <path class="svg-path" d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/>
                 </svg>
@@ -44,7 +45,8 @@
             </a>
          </li>
          <li>
-            <a href="#" class="flex items-center p-2 text-gray-900 transition duration-700 hover:text-merah dark:transition dark:duration-700 dark:hover:text-merah dark:text-white group">
+            <a href="/admin/DaftarKomik" class="flex items-center p-2 text-gray-900 transition duration-700 hover:text-merah dark:transition dark:duration-700 dark:hover:text-merah dark:text-white group
+            {{ request()->is('admin/DaftarKomik') ? 'text-merah dark:text-merah' : 'text-black dark:text-black' }}">
                 <svg class="w-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path class="svg-path"
                 d="M96 0C43 0 0 43 0 96V416c0 53 43 96 96 96H384h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V384c17.7 0 32-14.3 32-32V32c0-17.7-14.3-32-32-32H384 96zm0 384H352v64H96c-17.7 0-32-14.3-32-32s14.3-32 32-32zm32-240c0-8.8 7.2-16 16-16H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16zm16 48H336c8.8 0 16 7.2 16 16s-7.2 16-16 16H144c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/>
                 </svg>
@@ -92,6 +94,6 @@
       </ul>
    </div>
 </aside>
-
+</header>
 <!-- header end -->
 

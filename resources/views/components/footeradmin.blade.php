@@ -4,9 +4,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
 <!-- footer start -->
-<div class=" flex justify-center font-serif pl-64 my-4">
+ <footer>
+<div class=" flex justify-center font-serif pt-16 sm:pl-64 py-4 dark:bg-black">
     <div>
-        <p>@Treaject</p>
+        <p class="dark:text-white">@Treaject</p>
     </div>
 </div>
+</footer>
 <!-- footer end -->

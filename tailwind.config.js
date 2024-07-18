@@ -11,7 +11,12 @@ export default {
     colors: {
       'merah' : '#952323',
     },
-    extend: {},
+    extend: {
+      aspectRatio: {
+        '9/16': '9 / 16',
+        '3/4' : '3 /4',
+      },
+    },
     fontFamily: {
       serif: ["Crimson Pro", 'serif'],
     },
@@ -21,5 +26,7 @@ export default {
     require('flowbite/plugin')
   ],
 }
+
+
 
 

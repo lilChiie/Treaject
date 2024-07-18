@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* slider start */
 .svg-path {
     fill: currentColor; 
 }
@@ -11,3 +12,22 @@
 .group:hover .svg-path {
     fill: merah; 
 }
+
+/* slider end */
+
+/* content start */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+/* content end */
+
+/* tulisan di content */
+

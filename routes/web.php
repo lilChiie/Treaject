@@ -7,9 +7,9 @@ Route::get('/', function () {
 });
 
 Route::prefix('components')->group(function () {
-    Route::get('/FooterAdmin', function () {
-        return view('components/footeradmin');
-    });
+    // Route::get('/FooterAdmin', function () {
+    //     return view('components/footeradmin');
+    // });
 
     Route::get('/FooterUser', function () {
         return view('components/footeruser');
@@ -37,5 +37,9 @@ Route::prefix('admin')->group(function () {
 
     Route::get('/Novel', function () {
         return view('admin/novel');
+    });
+
+    Route::get('/DaftarKomik', function () {
+        return view('admin/daftarkomik');
     });
 });
