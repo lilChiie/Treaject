@@ -35,11 +35,31 @@ Route::prefix('admin')->group(function () {
         return view('admin/home');
     });
 
-    Route::get('/Novel', function () {
-        return view('admin/novel');
+    Route::get('/DaftarNovel', function () {
+        return view('admin/daftarnovel');
+    });
+
+    Route::get('/GenreNovel', function () {
+        return view('admin/genrenovel');
     });
 
     Route::get('/DaftarKomik', function () {
         return view('admin/daftarkomik');
+    });
+
+    Route::get('/DetailKomik', function () {
+        return view('admin/detailkomik');
+    });
+
+    Route::get('/GenreKomik', function () {
+        return view('admin/genrekomik');
+    });
+
+    Route::get('/EditGenreKomik', function () {
+        return view('admin/editgenrekomik');
+    });
+
+    Route::get('/ChapterKomik', function () {
+        return view('admin/chapterkomik');
     });
 });

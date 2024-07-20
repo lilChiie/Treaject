@@ -5,7 +5,7 @@
             {{ request()->is('admin/DaftarKomik') ? 'text-merah dark:text-merah' : 'text-black dark:text-black' }}">daftar komik</a>
        </div>
        <div class="px-36 text-[24px] uppercase">
-            <a href="">kelola genre</a>
+            <a href="/admin/GenreKomik" class="{{ request()->is('admin/GenreKomik', 'admin/EditGenreKomik') ? 'text-merah dark:text-merah' : 'text-black dark:text-black' }}">kelola genre</a>
        </div>
     </nav>
     <div class=" px-24">
