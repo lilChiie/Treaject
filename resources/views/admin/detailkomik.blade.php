@@ -32,6 +32,13 @@
                             <span class="font-medium">175k</span>
                         </div>
                     </div>
+
+                    <!-- genre -->
+                    <div class="flex mb-5">
+                        <p  class="text-gray-900  border border-gray-800   font-medium rounded-lg text-sm px-5 py-1.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 ">Romantis</p>
+                        <p  class="text-gray-900  border border-gray-800   font-medium rounded-lg text-sm px-5 py-1.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 ">Drama</p>
+                        <p  class="text-gray-900  border border-gray-800   font-medium rounded-lg text-sm px-5 py-1.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 ">Historical</p>
+                    </div>
                     <p class="font-medium">Cantik, muda, kaya raya, kehidupan Serena nyaris sempurna. Hanya dua hal yang membuatnya tidak sempurna, pernikahan yang cacat dan harta warisan milik keluarganya yang dikelola oleh sang suami yang menurutnya bengis dan tidak punya hati. Tapi kali ini, Serena tidak akan tinggal diam. Dia akan merebut kepemilikannya segera!</p>
                     <p class="font-bold">Author: <span class="font-medium text-gray-800">Anonim</span></p>
                 </div>
@@ -42,6 +49,7 @@
         <!-- content start -->
         <section>
 
+            <!-- favorite -->
             <div class="mt-6">
                 <button type="button" class="text-white bg-[#050708] hover:bg-merah focus:ring-4 focus:outline-none focus:ring-[#050708]/50 font-medium rounded-lg transition duration-700 text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#050708]/40 dark:focus:ring-gray-600 me-2 mb-2">
                     <svg class="w-5 mr-2 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

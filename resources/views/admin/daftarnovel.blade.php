@@ -16,7 +16,7 @@
             <div class=" grid grid-cols-4 gap-2">
                 <!-- content utama 1 -->
                 <div class=" relative image-container">
-                    <a href="">
+                    <a href="/admin/DetailNovel">
                         <img src="{{ url('images/komik1.jpg') }}" class=" aspect-3/4 object-cover rounded-lg" alt="">
                         <div class="absolute inset-0 overlay">
                             <!-- ikon start -->
@@ -167,7 +167,7 @@
             <div class=" grid grid-cols-4 gap-2">
                <!-- content 1 -->
                <div class=" relative image-container">
-                    <a href="">
+                    <a href="/admin/DetailNovel">
                         <img src="{{ url('images/komik5.jpg') }}" class=" aspect-3/4 object-cover rounded-lg" alt="">
                         <div class="absolute inset-0 overlay">
                             <!-- ikon start -->
