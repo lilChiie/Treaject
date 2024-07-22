@@ -29,4 +29,7 @@
   }
 /* content end */
 
-
+#dropdownNotification {
+  position: absolute;
+  z-index: 9999; /* atau nilai yang lebih tinggi */
+}
