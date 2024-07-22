@@ -41,7 +41,12 @@
 
         <!-- content start -->
         <section>
-            <div class="mt-12">
+            <div class="mt-12 mb-2 mx-3 font-bold text-[20px] text-gray-600">
+                <p>4 Chapter</p>
+            </div>
+
+
+            <div>
                 <!-- 1 -->
                 <a href="/admin/ChapterKomik" class="mb-2 hover:brightness-50  ">
                     <div class="flex border-2 border-50 mb-2 border-b-gray-500  rounded-lg p-1">
