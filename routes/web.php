@@ -39,8 +39,20 @@ Route::prefix('admin')->group(function () {
         return view('admin/daftarnovel');
     });
 
+    Route::get('/DetailNovel', function () {
+        return view('admin/detailnovel');
+    });
+
     Route::get('/GenreNovel', function () {
         return view('admin/genrenovel');
+    });
+
+    Route::get('/EditGenreNovel', function () {
+        return view('admin/editgenrenovel');
+    });
+
+    Route::get('/ChapterNovel', function () {
+        return view('admin/chapternovel');
     });
 
     Route::get('/DaftarKomik', function () {

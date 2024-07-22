@@ -94,7 +94,7 @@
          <div class=" w-full mt-10 sm:mt-32 grid grid-cols-3 gap-3 sm:gap-12 content-center">
             <div>
                 <div class="relative ...">
-                    <svg class="w-9/12 rounded-full text-black dark:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <svg class="w-9/12 rounded-full text-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
                     </svg>
@@ -110,7 +110,7 @@
             </div>
             <div>
                 <div class="relative ...">
-                    <svg class="w-9/12 rounded-full text-black dark:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <svg class="w-9/12 rounded-full text-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
                     </svg>
@@ -126,7 +126,7 @@
             </div>
             <div>
                 <div class="relative ...">
-                    <svg class="w-9/12 rounded-full text-black dark:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <svg class="w-9/12 rounded-full text-black dark:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                     <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512z"/>
                     </svg>
