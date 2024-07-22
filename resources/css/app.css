@@ -33,3 +33,13 @@
   position: absolute;
   z-index: 9999; /* atau nilai yang lebih tinggi */
 }
+
+
+/* komen */
+.hidden {
+  display: none;
+}
+
+.replies {
+  margin-left: 20px;
+}
