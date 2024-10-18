@@ -43,3 +43,25 @@
 .replies {
   margin-left: 20px;
 }
+
+/* Menyembunyikan scrollbar di browser WebKit (Chrome, Safari, Edge) */
+.scrollbar-hidden::-webkit-scrollbar {
+  width: 4px; /* Mengatur lebar scrollbar menjadi tipis */
+  height: 4px; /* Jika ada scroll horizontal */
+}
+
+/* Mengubah track scrollbar */
+.scrollbar-hidden::-webkit-scrollbar-track {
+  background: transparent; /* Membuat track scrollbar transparan */
+}
+
+/* Mengubah thumb (bagian yang bisa di-scroll) */
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Warna gelap dengan opacity rendah */
+  border-radius: 10px; /* Membuat bentuknya bulat */
+}
+
+/* Hover effect saat thumb di-scroll */
+.scrollbar-hidden::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.4); /* Saat di-hover, warnanya lebih jelas */
+}

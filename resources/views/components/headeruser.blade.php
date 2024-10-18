@@ -3,9 +3,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 
-<header>
-
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+<header class="">
+    <!-- header -->
+    <nav class="fixed w-full bg-white border-gray-200 dark:bg-gray-900">
         <div class="max-w-screen-xl flex items-center justify-between mx-auto p-4">
             <!-- Logo dan teks "Treaject" di sebelah kiri -->
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse ">
@@ -177,6 +177,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </nav>
+
+    <!-- navbar -->
+    <nav> 
+        <div>
+            <h1>Genre</h1>
         </div>
     </nav>
 </header>

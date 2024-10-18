@@ -28,6 +28,18 @@ Route::prefix('user')->group(function () {
     Route::get('/', function () {
         return view('user/home');
     })->name('user.home');
+
+    Route::get('/GenreKomikUser', function () {
+        return view('user/genrekomikuser');
+    });
+
+    Route::get('/GenreNovelUser', function () {
+        return view('user/genrenoveluser');
+    });
+
+    Route::get('/DetailKomik', function () {
+        return view('user/detailkomik');
+    });
 });
 
 Route::prefix('admin')->group(function () {
